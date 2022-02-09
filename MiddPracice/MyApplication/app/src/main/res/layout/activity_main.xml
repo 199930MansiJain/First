@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/edval"
+        android:hint="ENTER VALUE"
+        android:layout_marginBottom="30dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/seekbarvalue"
+        android:text="VALUE OF SEEKBAR" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:maxWidth="30dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:id="@+id/btn"
+        android:text="STORE"
+        />
+</LinearLayout>
